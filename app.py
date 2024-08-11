@@ -1,7 +1,7 @@
 import gradio as gr
 import requests
 
-NGROK_URL = "https://your-actual-ngrok-url"  # Update this with your actual ngrok URL
+NGROK_URL = "https://2995-34-136-99-85.ngrok-free.app"  # Update this with your actual ngrok URL
 
 def generate_and_save(prompt, negative_prompt, num_frames, guidance_scale, num_inference_steps, seed):
     data = {
